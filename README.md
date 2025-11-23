@@ -8,10 +8,10 @@ I am currently working on agentic AI with advanced tool integration for efficien
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/thanaysisir) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anabathula.thanaysisir@gmail.com) 
 
 # 💻 Tech Stack:
- AI/ML Core: Transformers, Multi-Agent Systems, RLHF. <br>
- ML Frameworks: PyTorch, Hugging Face, FAISS, Unsloth, LangChain, CrewAI, Scikit-learn, Optuna, Ray Train <br>
- Research Workflow: Overleaf, LaTeX, Weights & Biases, JupyterLab, Statistical Significance Testing <br>
- Systems & Tools: Linux, Git, VS Code <br>
+ **AI/ML Core:** Transformers, Multi-Agent Systems, RLHF. <br>
+ **ML Frameworks**: PyTorch, Hugging Face, FAISS, Unsloth, LangChain, CrewAI, Scikit-learn, Optuna, Ray Train <br>
+ **Research Workflow**: Overleaf, LaTeX, Weights & Biases, JupyterLab, Statistical Significance Testing <br>
+ **Systems & Tools**: Linux, Git, VS Code <br>
 
 
 # 📊 GitHub Stats:
