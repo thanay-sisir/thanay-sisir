@@ -1,7 +1,14 @@
 
 # 💫 About Me:
-Hi, I’m Thanay Sisir—a Computer Science undergraduate with a minor in AI & ML.
-I am currently working on agentic AI with advanced tool integration for efficient information delivery. <br>In addition, contributing to open-source Frontier Labs projects in multi-agent deep research systems and test-time compute. <br>Always open for discussions on inference-time compute &  RL—let’s connect!<br><br>Highly interested in pursuing an academic research program on these topics.
+# Hi, I’m Thanay Sisir—a Computer Science undergraduate with a minor in AI & ML.
+
+I am currently working on **LLM-based AI Agents** with advanced tool integration for efficient context sharing and information delivery. In addition, I am contributing to open-source **Frontier Labs projects** in multi-agent deep research systems and test-time compute.
+
+## I am highly interested in the exploration of these things as of now:
+
+- **Retrieval of credible information** with sub-agentic tool calls with reasoning standards.  
+- **Emergent behaviors** in open agentic web frameworks.  
+- If possible, I am also interested in **publishing papers with collaboration**. Feel free to connect.
 
 
 ## 🌐 Socials:
