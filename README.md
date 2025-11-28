@@ -7,7 +7,8 @@ I am currently working on **LLM-based AI Agents** with advanced tool integration
 ## I am highly interested in the exploration of these things as of now:
 
 - **Retrieval of credible information** with sub-agentic tool calls with reasoning standards.  
-- **Emergent behaviors** in open agentic web frameworks.  
+- **Emergent behaviors** in open agentic web frameworks.
+- ** Greater capabilities of LLMs ** 
 - If possible, I am also interested in **publishing papers with collaboration**. Feel free to connect.
 
 
