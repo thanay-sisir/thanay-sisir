@@ -23,7 +23,7 @@ I am currently working on **LLM-based AI Agents** with advanced tool integration
 
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=thanay-sisir&theme=merko&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=thanay-sisir&theme=merko&hide_border=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=thanay-sisir&theme=merko&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=thanay-sisir&theme=merko&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
