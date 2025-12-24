@@ -2,7 +2,7 @@
 # 💫 About Me:
 # Hi, I’m Thanay Sisir—a Computer Science undergraduate with a Minor Degree in AI & ML.
 
-I am currently working on **LLM-based AI Agents** with advanced tool integration for efficient context sharing and information delivery. In addition, I am contributing to open-source **Frontier Labs projects** in multi-agent deep research systems and test-time compute.
+I am currently working on **LLM-based AI Agents** with advanced tool integration for efficient context sharing and information delivery. In addition, I am contributing to open-source **Frontier Labs projects** in multi-agent deep research systems, test-time compute and AI in healthcare
 
 ## I am highly interested in the exploration of these things as of now:
 
