@@ -3,7 +3,7 @@
 
 I’m pursuing an **M.E. in Systems Engineering at the University of Virginia** and hold a **B.Tech. in Computer Science with a Minor in AI & ML** from JNTUH.
 
-I’m currently a **Research Assistant at UVA Darden School of Business**, building automated data pipelines, information extraction systems, and GPT-powered research tools. My work includes extracting financial disclosures from SEC filings, matching records across **7 TB of voter registration data**, and mapping corporate ownership hierarchies.
+I’m currently a **Research Assistant at UVA Darden School of Business**, building automated data pipelines, information extraction systems, and GPT-powered research tools.
 
 Previously, I worked at **UVA Engineering’s Link Lab**, analyzing EV fleet telematics and engineering features to study battery degradation.
 
