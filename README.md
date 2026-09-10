@@ -7,7 +7,7 @@ I’m currently a **Research Assistant at UVA Darden School of Business**, build
 
 Previously, I worked at **UVA Engineering’s Link Lab**, analyzing EV fleet telematics and engineering features to study battery degradation.
 
-I’m interested in **software engineering, LLM-based agents, retrieval systems, and efficient model computation**, and I’m targeting **New Grad Software Engineer roles for 2027**.
+I’m interested in **software engineering, LLM-based agents, retrieval systems, and efficient model computation**, and I’m targeting **New Grad roles for 2027**.
 
 ## 🔬 Research Interests:
 - **Reliable information retrieval** and reasoning with tool-using agents.
