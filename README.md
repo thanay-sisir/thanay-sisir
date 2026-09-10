@@ -33,10 +33,3 @@ I’m interested in **software engineering, LLM-based agents, retrieval systems,
 **Development Tools:** Cursor, Grok Bot, Git, Linux, VS Code <br>
 **Research Workflow:** LaTeX, Overleaf, Weights & Biases, JupyterLab, Statistical Significance Testing
 
-# 📊 GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=thanay-sisir&theme=merko&hide_border=false&count_private=false)<br/>
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=thanay-sisir&theme=merko&hide_border=false)<br/>
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thanay-sisir&theme=merko&hide_border=false&layout=compact)
-
----
-[![Profile Visits](https://visitcount.itsvg.in/api?id=thanay-sisir&icon=0&color=0)](https://visitcount.itsvg.in)
