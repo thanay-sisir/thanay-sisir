@@ -7,7 +7,7 @@ I’m currently a **Research Assistant at UVA Darden School of Business**, build
 
 Previously, I worked at **UVA Engineering’s Link Lab**, analyzing EV fleet telematics and engineering features to study battery degradation.
 
-I’m interested in **software engineering, LLM-based agents, retrieval systems, and efficient model computation**, and I’m targeting **New Grad roles for 2027**.
+I’m interested in **software engineering for AI agents — LLM-based agents, retrieval systems, and AI evals** — and I’m targeting **New Grad roles for 2027**.
 
 ## 🔬 Research Interests:
 - **Reliable information retrieval** and reasoning with tool-using agents.
@@ -19,17 +19,13 @@ I’m interested in **software engineering, LLM-based agents, retrieval systems,
 ## 🚀 Projects & Open Source:
 - **Continuous Thought Machines — SakanaAI:** Contributed a merged optimization that replaced per-sample maze loss mask computation with batch-parallel tensor operations, achieving **up to 10× speedup in mask computation**, validated through numerical equivalence tests and benchmarks.
 - **Synthetic Data Generator for Coding LLM Agent:** Built a **50M-parameter Transformer** for Python-to-Triton code translation using RoPE, SwiGLU, and mixed-precision training. Generated **2,000+ code pairs** with AST-based validation and evaluated outputs using CodeBLEU and BERTScore.
-- **LawRA — Law Research Assistant:** Built a **seven-agent research assistant** using CrewAI and Gemma for PDF argument extraction, citation tracing, and literature discovery across **50+ sources**.
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/thanaysisir)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:qdf7ea@virginia.edu)
+- **SentinelSRE — Autonomous SRE Incident-Response Agent:** Built a LangGraph agent that investigates alerts, forms evidence-linked hypotheses, and remediates a sandboxed 3-service platform through a deterministic policy engine and HMAC approval tokens — graded **reward 1.0** by Harbor's independent verifier on a LangSmith cloud sandbox.
 
 # 💻 Tech Stack:
 **Languages:** Python, SQL <br>
-**AI/ML:** Transformers, NLP, RAG, Multi-Agent Systems, Fine-Tuning <br>
-**Frameworks & Tools:** PyTorch, FAISS, Unsloth, LangChain, CrewAI, Scikit-learn, Optuna <br>
-**Engineering:** Data Pipelines, Information Extraction, Tensor Vectorization, Performance Benchmarking, Numerical Validation <br>
-**Development Tools:** Cursor, Grok Bot, Git, Linux, VS Code <br>
+**AI/ML:** Transformers, NLP, RAG, Multi-Agent Systems, Agent Evaluation, Fine-Tuning <br>
+**Frameworks & Tools:** PyTorch, FAISS, Unsloth, LangChain, LangGraph, LangSmith, CrewAI, FastAPI, Pydantic, Typer, Scikit-learn, Optuna <br>
+**Engineering:** Data Pipelines, Information Extraction, Tensor Vectorization, Performance Benchmarking, Numerical Validation, CI/CD (GitHub Actions) <br>
+**Development Tools:** Cursor, Grok Bot, Git, Linux, VS Code, Docker, uv, pytest <br>
 **Research Workflow:** LaTeX, Overleaf, Weights & Biases, JupyterLab, Statistical Significance Testing
 
