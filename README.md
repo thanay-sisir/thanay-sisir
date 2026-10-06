@@ -24,8 +24,9 @@ I’m interested in **software engineering for AI agents — LLM-based agents, r
 # 💻 Tech Stack:
 **Languages:** Python, SQL <br>
 **AI/ML:** Transformers, NLP, RAG, Multi-Agent Systems, Agent Evaluation, Fine-Tuning <br>
-**Frameworks & Tools:** PyTorch, FAISS, Unsloth, LangChain, LangGraph, LangSmith, CrewAI, FastAPI, Pydantic, Typer, Scikit-learn, Optuna <br>
-**Engineering:** Data Pipelines, Information Extraction, Tensor Vectorization, Performance Benchmarking, Numerical Validation, CI/CD (GitHub Actions) <br>
-**Development Tools:** Cursor, Grok Bot, Git, Linux, VS Code, Docker, uv, pytest <br>
-**Research Workflow:** LaTeX, Overleaf, Weights & Biases, JupyterLab, Statistical Significance Testing
+**Frameworks & Tools:** PyTorch, FAISS, Unsloth, LangChain, LangGraph, LangSmith, CrewAI, FastAPI, Pydantic, Optuna, Harbor (agent evals) <br>
+**Engineering:** Data Pipelines, Information Extraction, Performance Benchmarking, CI/CD (GitHub Actions) <br>
+**Development Tools:** Cursor, Grok Bot, Git, Linux, VS Code, Docker
+
+Outside of work, I like exploring new AI tools as they launch — things like Harpa AI and Grok — because they take care of the repetitive stuff and leave more time for the work that actually matters.
 
