@@ -1,32 +1,37 @@
-# 💫 About Me:
-## Hi, I’m Thanay Sisir 👋
+# Thanay Sisir Anabathula
 
-I’m pursuing an **M.E. in Systems Engineering at the University of Virginia** and hold a **B.Tech. in Computer Science with a Minor in AI & ML** from JNTUH.
+I'm doing my M.Eng. in Systems Engineering at the **University of Virginia** (CGPA 3.925/4.0, graduating May 2027). Before that I did a B.Tech. in Computer Science with a minor in AI/ML at JNTU Hyderabad.
 
-I’m currently a **Research Assistant at UVA Darden School of Business**, building automated data pipelines, information extraction systems, and GPT-powered research tools.
+Most of what I build is around **AI agents, evals, LLM inference, sandboxed execution, and model training**. I'm looking for **New Grad 2027** roles in that space, including AI research engineering and forward-deployed engineering, and I can start full-time in June 2027.
 
-Previously, I worked at **UVA Engineering’s Link Lab**, analyzing EV fleet telematics and engineering features to study battery degradation.
+## What I'm working on
 
-I’m interested in **software engineering for AI agents — LLM-based agents, retrieval systems, and AI evals** — and I’m targeting **New Grad roles for 2027**.
+**Research Assistant, UVA Darden School of Business** (May 2026 to present)
+I build data pipelines that turn messy, unstructured data into something faculty, deans and a Federal Reserve economist can actually do research on. That has meant pulling liability and joint-venture disclosures for 250+ BDCs out of SEC 10-K/10-Q filings, and fuzzy-matching hedge fund managers across 7 TB of voter registration data.
 
-## 🔬 Research Interests:
-- **Reliable information retrieval** and reasoning with tool-using agents.
-- **Multi-agent systems** for research, citation tracing, and knowledge discovery.
-- **Efficient LLM training and inference**, tensor vectorization, and performance optimization.
-- **Emergent agent behaviors**, test-time compute, and AI applications in healthcare.
-- **Collaborative research and paper publication** — feel free to connect!
+**Graduate Student Worker, UVA Engineering Link Lab** (Feb 2026 to May 2026)
+Worked with Prof. B. Brian Park on EV fleet telematics, engineering battery-capacity features to classify degradation tiers. Partial-charge-based estimation turned out to be the strongest predictor.
 
-## 🚀 Projects & Open Source:
-- **Continuous Thought Machines — SakanaAI:** Contributed a merged optimization that replaced per-sample maze loss mask computation with batch-parallel tensor operations, achieving **up to 10× speedup in mask computation**, validated through numerical equivalence tests and benchmarks.
-- **Synthetic Data Generator for Coding LLM Agent:** Built a **50M-parameter Transformer** for Python-to-Triton code translation using RoPE, SwiGLU, and mixed-precision training. Generated **2,000+ code pairs** with AST-based validation and evaluated outputs using CodeBLEU and BERTScore.
-- **SentinelSRE — Autonomous SRE Incident-Response Agent:** Built a LangGraph agent that investigates alerts, forms evidence-linked hypotheses, and remediates a sandboxed 3-service platform through a deterministic policy engine and HMAC approval tokens — graded **reward 1.0** by Harbor's independent verifier on a LangSmith cloud sandbox.
+## Projects
 
-# 💻 Tech Stack:
-**Languages:** Python, SQL <br>
-**AI/ML:** Transformers, NLP, RAG, Multi-Agent Systems, Agent Evaluation, Fine-Tuning <br>
-**Frameworks & Tools:** PyTorch, FAISS, Unsloth, LangChain, LangGraph, LangSmith, CrewAI, FastAPI, Pydantic, Optuna, Harbor (agent evals) <br>
-**Engineering:** Data Pipelines, Information Extraction, Performance Benchmarking, CI/CD (GitHub Actions) <br>
-**Development Tools:** Cursor, Grok Bot, Git, Linux, VS Code, Docker, Jira
+**[SentinelSRE](https://github.com/thanay-sisir/sentinelsre)**, an autonomous incident-response agent
+A LangGraph agent with 21 typed tools that runs against a small multi-service FastAPI platform. 15 tools are read-only. The other 6 can change things, but only after a deterministic policy engine approves the step and issues a single-use HMAC token. It resolved an injected outage in about 90 seconds, traced end to end in LangSmith. Each run has hard budgets (15 model turns, 35 tool calls, timeouts on every LLM call). I also built a Harbor eval where an independent verifier grades the real outcome and penalizes cheating. It scored 1.0 in a LangSmith cloud sandbox and caught 2 failure modes my local tests had missed. 83 tests run in CI on Linux and Windows.
 
-Outside of work, I like exploring new AI tools as they launch — things like Harpa AI and GrokBot — because they take care of the repetitive stuff and leave more time for the work that actually matters.
+**[Synthetic Data Generator for a Coding LLM](https://github.com/thanay-sisir/Synthetic-data-generator-for-coding-LLM)**
+An execution-verified data pipeline for Triton GPU kernels. Teacher-model workers write kernels, an AST check screens them, and an Apptainer GPU sandbox on A100s runs each one against a PyTorch reference. Only the 1,894 kernels that match are kept. I fine-tuned Qwen3.8-27B with LoRA on a single A100 through Slurm, which took the held-out pass rate on unseen operation families from 44.8% to 98.2%. Served with vLLM at 10.3 s p50 latency and 101.9 tokens/s. For comparison, a 0.5B LoRA model got 12.3% and a 29.5M Transformer trained from scratch got 0%.
 
+**[Continuous Thought Machines](https://github.com/SakanaAI/continuous-thought-machines)** (SakanaAI, open source contribution)
+Got a performance fix merged that vectorizes the maze-loss masking in PyTorch, replacing a per-example Python loop with batched tensor ops and cutting mask storage from B×R×T to B×R. Losses and gradients match the original exactly across 16 test configurations.
+
+## Tech stack
+
+**AI/ML:** LoRA/PEFT fine-tuning, GPU training, agentic workflows, tool calling, evals<br>
+**Inference and infra:** vLLM, latency and throughput benchmarking, Docker, Apptainer (GPU sandboxing)<br>
+**Libraries:** Python, PyTorch, LangChain, LangGraph, LangSmith, Harbor, FastAPI, Pydantic<br>
+**Engineering:** Git, GitHub Actions CI, Azure, Cursor, Claude Code
+
+## Find me
+
+[Portfolio](https://thanaysisir.vercel.app/index.html) · [X](https://x.com/ThanaysisirA) · anabathula.thanaysisir@gmail.com
+
+Outside of work, I like trying new AI tools as they launch, because they take care of the repetitive stuff and leave more time for the work that actually matters.
