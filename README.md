@@ -4,7 +4,7 @@ I'm doing my M.Eng. in Systems Engineering at the **University of Virginia** (gr
 
 my best work is around **AI agents, inference, sandboxed execution, and model training**. I'm looking to start full-time in June 2027 under a new grad role in AI Pilled space - Research & Engineering. 
 
-## What I'm working on
+## Currently...
 
 **Research Assistant, UVA Darden School of Business** (May 2026 to present)
 I build data pipelines that turn messy, unstructured data into something faculty, deans and a Federal Reserve economist can actually do research on. That has meant pulling liability and joint-venture disclosures for 250+ BDCs out of SEC 10-K/10-Q filings, and fuzzy-matching hedge fund managers across 7 TB of voter registration data.
