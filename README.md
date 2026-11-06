@@ -2,7 +2,7 @@
 
 I'm doing my M.Eng. in Systems Engineering at the **University of Virginia** (graduating May 2027). Before that I did a B.Tech. in Computer Science with a minor in AI/ML at JNTU Hyderabad, India
 
-Most of what I build is around **AI agents, evals, LLM inference, sandboxed execution, and model training**. I'm looking for **New Grad 2027** roles in that space, including AI research engineering and forward-deployed engineering, and I'm looking to start full-time in June 2027.
+Most of what I build is around **AI agents, inference, sandboxed execution, and model training**. I'm looking for **New Grad 2027** roles in that space, including AI research engineering and forward-deployed engineering, and I'm looking to start full-time in June 2027.
 
 ## What I'm working on
 
