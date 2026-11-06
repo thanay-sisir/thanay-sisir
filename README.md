@@ -2,7 +2,7 @@
 
 I'm doing my M.Eng. in Systems Engineering at the **University of Virginia** (graduating May 23rd 2027). Before that I did a B.Tech. in Computer Science with a minor in AI/ML at JNTU Hyderabad, India
 
-Most of what I build is around **AI agents, inference, sandboxed execution, and model training**. I'm looking to start full-time in June 2027 under a new grad role in AI Pilled space - Research & Engineering. 
+my best work is around **AI agents, inference, sandboxed execution, and model training**. I'm looking to start full-time in June 2027 under a new grad role in AI Pilled space - Research & Engineering. 
 
 ## What I'm working on
 
